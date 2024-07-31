@@ -10,7 +10,7 @@ PREDICTED_NAMES = ["R_naught", "Infectious_period"]
 PREFIX = os.path.abspath(os.path.dirname(__file__))
 
 
-def get_ci_table(tree_size, encoding):
+def get_ci_tables(tree_size, encoding):
     """
     Loads the tables required for CI computation (for approximated parametric bootstrap)
 
@@ -62,7 +62,7 @@ def main():
 
     params = parser.parse_args()
 
-    get_ci_table_paths(**vars(params))
+    print(get_ci_table_paths(**vars(params)))
 
 
 if '__main__' == __name__:

@@ -6,8 +6,8 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     package_data={'phylodeep_data_bd': [os.path.join('phylodeep_data_bd/large', '*.xz'),
-                                          os.path.join('phylodeep_data_bd/small', '*.xz'),
-                                          'README.md']},
+                                        os.path.join('phylodeep_data_bd/small', '*.xz'),
+                                        'README.md']},
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     classifiers=[
@@ -21,7 +21,7 @@ setup(
         'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: 3 :: Only',
     ],
-    version='0.1',
+    version='0.2',
     description='Data needed for CI computation with Birth-Death (BDEI) model in [PhyloDeep](https://github.com/evolbioinfo/phylodeep).',
     author='Jakub Voznica',
     author_email='jakub.voznica@pasteur.fr',
@@ -32,8 +32,8 @@ setup(
     python_requires='>=3.8',
     install_requires=['pandas>=1.0.0'],
     entry_points={
-            'console_scripts': [
-                'bd_ci_paths = phylodeep_data_bd:main',
-            ]
+        'console_scripts': [
+            'bd_ci_paths = phylodeep_data_bd:main',
+        ]
     },
 )

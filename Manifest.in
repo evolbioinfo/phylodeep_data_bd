@@ -1,0 +1,3 @@
+include phylodeep_data_bd/large/*
+include phylodeep_data_bd/small/*
+include README.md
