@@ -21,7 +21,7 @@ setup(
         'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: 3 :: Only',
     ],
-    version='0.5',
+    version='0.6',
     description='Data needed for CI computation with Birth-Death (BD) model in [PhyloDeep](https://github.com/evolbioinfo/phylodeep).',
     author='Jakub Voznica',
     author_email='jakub.voznica@pasteur.fr',
